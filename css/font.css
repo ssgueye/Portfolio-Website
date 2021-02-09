@@ -1,0 +1,6 @@
+/*fonts. We used Roboto google font here*/
+
+@font-face{
+    font-family:"Roboto";
+    src:'../fonts/Roboto/Roboto-Regular.ttf';
+}

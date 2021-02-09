@@ -1,0 +1,314 @@
+/*Import fonts*/
+
+
+/*Start Navigation*/
+
+.background{
+    background-image: url(../img/watercolour-4116932_1280.png);
+}
+.background1{
+    background-image: url(../img/portable-computer-1155173_1280.png);
+}
+.menu{
+    margin-top: 5rem;
+    size: 5rem;
+}
+.navbar{
+    height:5rem; 
+}
+
+.navbar-brand{
+    padding-left: 14rem;
+}
+.collapse{
+    padding-left: 14rem;
+}
+
+.nav-link{
+    font-size: 20px;
+}
+.active a{
+    background-image: linear-gradient(to right top, #d639c9, #b148c9, #8b4fc3, #6752b9, #4552aa, #4f5eab, #5969ab, #6574ab, #8f94bf, #b6b6d4, #dbdae9, #ffffff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar-nav a:hover{
+    background-image: linear-gradient(to right top, #d639c9, #b148c9, #8b4fc3, #6752b9, #4552aa, #4f5eab, #5969ab, #6574ab, #8f94bf, #b6b6d4, #dbdae9, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.low-eyes{
+    padding-left: 2.3rem;
+}
+.access{
+    padding-right: 3rem;
+    font-size: 14px;
+}
+
+/* Start Css for Buttons and Images*/
+.bckgr{
+    background-image: linear-gradient(to right top, #d639c9, #b148c9, #8b4fc3, #6752b9, #4552aa, #4f5eab, #5969ab, #6574ab, #8f94bf, #b6b6d4, #dbdae9, #ffffff);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ 
+} 
+
+.button{
+    font-family: "Roboto", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 15px;
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 5px;
+}
+.primary-button{
+    background-image: linear-gradient(to right top, #d639c9, #b148c9, #8b4fc3, #6752b9, #4552aa, #4f5eab, #5969ab, #6574ab, #8f94bf, #b6b6d4, #dbdae9, #ffffff);
+    background-clip: padding-box;
+    color: white;
+    transition: 2s;  
+}
+
+.primary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+}
+
+.primary-button::after, .secondary-button::after{
+    position: absolute;
+    top: -2px; left: -2px;
+    bottom: -2px; right: -2px;
+    background: linear-gradient(to right top, #d639c9, #b148c9, #8b4fc3, #6752b9, #4552aa, #4f5eab, #5969ab, #6574ab, #8f94bf, #b6b6d4, #dbdae9, #ffffff);
+    content:'';
+    z-index: -1;
+    border-radius: 4px;
+}
+
+.secondary-button{
+    background: white;
+    background-clip: padding-box;
+    transition: 2s;
+}
+
+.secondary-button:hover{
+    background: linear-gradient(to right top, #d639c9, #b148c9, #8b4fc3, #6752b9, #4552aa, #4f5eab, #5969ab, #6574ab, #8f94bf, #b6b6d4, #dbdae9, #ffffff);
+    background-clip: padding-box;
+    color:whitesmoke;
+}
+
+.validate{
+    margin-left: 11rem;
+    background-image: linear-gradient(to right top, #d639c9, #b148c9, #8b4fc3, #6752b9, #4552aa, #4f5eab, #5969ab, #6574ab, #8f94bf, #b6b6d4, #dbdae9, #ffffff);
+}
+
+.bord{
+
+	border: 2px solid transparent;
+	border-image:linear-gradient(to right top, #d639c9, #b148c9, #8b4fc3, #6752b9, #4552aa, #4f5eab, #5969ab, #6574ab, #8f94bf, #b6b6d4, #dbdae9, #ffffff);
+	border-image-slice: 1;    
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+    font-family:sans-serif
+}
+
+.text-normal{
+    text-transform:initial;
+    font-family: sans-serif;
+}
+
+.text-abtMe{
+    text-transform: uppercase;
+    padding-left: 100px;
+    
+}
+
+.about-image{
+    padding-left: 70px;
+}
+
+.txt{
+    color: #4552aa;
+    font-family: "Roboto",'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+}
+
+/* Start Css for Buttons and Images*/
+
+
+/*Start Brand Area*/
+
+.brand-area{
+    padding:1rem 10rem;
+    margin-bottom: 4rem;
+}
+
+.single-brand{
+   border: 1px solid #6752b9;
+   padding-right: 6rem;
+   margin: .9rem 0;
+   cursor: pointer;
+   transition: transform .4s ease;
+}
+
+.img_class{
+    width: 250%;
+}
+
+.single-brand:hover{
+    box-shadow: #6752b9;
+    transform: scale(1.1);
+}
+
+.experience-area{
+    background-color: antiquewhite;
+    padding-top: 80px;
+    padding-bottom: 150px;
+    
+}
+.years-area{
+    display:inline-block;
+}
+
+/*Body images*/
+
+.BodyImage{
+    cursor: pointer;
+    transition: transform .4s ease;
+}
+.BodyImage:hover{
+    box-shadow: #6752b9;
+    transform: scale(1.1);
+}
+.img-contact{
+   
+    height: 15rem;
+    padding-left: 21rem;
+}
+
+.padding-Skills{
+    padding-left: 20rem;
+    padding-right: 40rem;
+}
+
+.form-padding{
+    padding-left: 30rem;
+    padding-right: 27rem;
+    
+}
+.textForm{
+    color:black;
+}
+.choose{
+    width: 20rem;
+}
+
+/*To put the CV download link as a button*/
+.cv-button{
+    padding-left: 9rem;
+}
+.buttonLink:link {
+    text-decoration: none;
+    color:white;
+}
+.buttonLink:visited {
+    text-decoration: none;
+    color: black;
+}
+.buttonLink:hover {
+    text-decoration: none;
+    color:black;
+}
+.buttonLink:active {
+    text-decoration: underline;
+    color: black;
+}
+
+.buttonLink2:link {
+    text-decoration: none;
+    color:black;
+}
+.buttonLink2:visited {
+    text-decoration: none;
+    color:black;
+}
+.buttonLink2:hover {
+    text-decoration: none;
+    color: white;
+}
+.buttonLink2:active {
+    text-decoration: underline;
+    color: white;
+}
+/*End of brand Area*/
+
+/*End Navigation*/
+
+/*Footer Area*/
+
+.footer_area{
+    margin-top: 1rem;
+}
+.copyright{
+    color:black;
+    padding-left: 370px;
+}
+.website_done{
+    padding-left: 450px;
+    color: black;
+    font-family: "Roboto",'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+}
+
+.social-media{
+    padding-left: 590px;
+    cursor: pointer;
+    
+}
+
+.insta:hover{     
+    background:-moz-linear-gradient(to right top, #dbf65b, #f4d23c, #ffac39, #ff8547, #fd605c, #f6456b, #e82b7c, #d3168e, #c400a2, #ac00b8, #861ccf, #3a32e5); 
+    background: -webkit-linear-gradient(to right top, #dbf65b, #f4d23c, #ffac39, #ff8547, #fd605c, #f6456b, #e82b7c, #d3168e, #c400a2, #ac00b8, #861ccf, #3a32e5); 
+    background: linear-gradient(to right top, #dbf65b, #f4d23c, #ffac39, #ff8547, #fd605c, #f6456b, #e82b7c, #d3168e, #c400a2, #ac00b8, #861ccf, #3a32e5);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+    transition: transform .4s ease;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.linkedin:hover{
+    background-clip:content-box;
+    color:#4e5eaf;
+    transition: transform .4s ease;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.facebook:hover{
+    background-clip:padding-box;
+    color:#3f54b9;
+    transition: transform .4s ease;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.twitter:hover{
+    background-clip:padding-box;
+    color:#50a1e4;
+    transition: transform .4s ease;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.youtube:hover{
+    background-clip:padding-box;
+    color:#d12828;
+    transition: transform .4s ease;
+    transform: scale(1.1);
+    cursor: pointer;
+}
